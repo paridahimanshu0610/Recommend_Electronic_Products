@@ -1,5 +1,8 @@
 # Product Recommendation System using Amazon Electronics Dataset 
 
+## File Structure:
+- recommender-system.ipynb: Contains the entire project code
+- Utilities: Contains my own custom modules for evaluation metrics(EvaluationMetrics.py) and visualization(Visualizations.py)
 
 ## Introduction to Recommendation systems
 
@@ -45,11 +48,11 @@ E-commerce
 
 ## Steps and tasks: 
 
-#### 1. Explore the dataset by renaming columns, plotting histograms, and analyzing data characteristics. 
-#### 2. Create a denser subset of the data, retaining users with 50 or more ratings.
-#### 3. Randomly split the data into training and test sets using a 70/30 ratio. 
-#### 4. Build Popularity Recommender model.  
-#### 5. Build Collaborative Filtering model. 
-#### 6. Evaluate both models by calculating the Root Mean Square Error (RMSE) on test data predictions. 
-#### 7. Generate the top 5 recommendations for each user to suggest new products based on their preferences.  
-#### 8. Summarize key insights from the analysis and modeling process.
+1. Explore the dataset by renaming columns, plotting histograms, and analyzing data characteristics. 
+2. Create a denser subset of the data, retaining users with 50 or more ratings.
+3. Randomly split the data into training and test sets using a 70/30 ratio. 
+4. Build Popularity Recommender model.  
+5. Build Collaborative Filtering model. 
+6. Evaluate both models by calculating the Root Mean Square Error (RMSE) on test data predictions. 
+7. Generate the top 5 recommendations for each user to suggest new products based on their preferences.  
+8. Summarize key insights from the analysis and modeling process.
